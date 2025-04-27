@@ -1,6 +1,6 @@
 // next.config.js
 module.exports = {
   experimental: {
-    serverActions: true,
+    serverActions: true, // تأكد من أن القيمة منطقية (boolean)
   },
 };
