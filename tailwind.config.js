@@ -1,5 +1,5 @@
-// tailwind.config.mjs
-export default {
+// tailwind.config.js
+module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -16,7 +16,5 @@ export default {
       },
     },
   },
-  corePlugins: {
-    preflight: true,
-  },
+  plugins: [],
 };
